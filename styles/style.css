@@ -146,6 +146,11 @@ body {
     
     .cabecalho__menu {  
         justify-content: center;
+        gap: 30px;
+    }
+
+    .cabecalho__menu__link {
+        font-size: 1rem;
     }
 
     .apresentacao {
@@ -155,5 +160,18 @@ body {
     
     .apresentacao__conteudo {
         width: auto;
+    }
+
+    .apresentacao__conteudo__paragrafo {
+        font-size: 1rem;
+    }
+
+    .apresentacao__conteudo__titulo__curriculum {
+        font-size: 1.5rem;
+        padding: 5% 0 10% 15%;
+    }
+
+    .apresentacao__conteudo__segundoTitulo {
+        font-size: 1.2rem;
     }
 }
